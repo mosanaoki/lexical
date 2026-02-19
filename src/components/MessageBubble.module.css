@@ -1,0 +1,87 @@
+.wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.wrapperMe {
+  flex-direction: row-reverse;
+}
+
+.wrapperOther {
+  flex-direction: row;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e94560, #0f3460);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 72%;
+}
+
+.bubble {
+  padding: 10px 14px;
+  border-radius: 18px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+.bubbleMe {
+  background: linear-gradient(135deg, #e94560, #c73652);
+  color: #fff;
+  border-bottom-right-radius: 4px;
+  align-self: flex-end;
+}
+
+.bubbleOther {
+  background: #1a2744;
+  color: #e0e0e0;
+  border-bottom-left-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.time {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.35);
+  padding: 0 4px;
+}
+
+.timeMe {
+  text-align: right;
+}
+
+/* 画像メッセージ */
+.bubbleImage {
+  padding: 4px;
+  background: transparent !important;
+  border: none !important;
+}
+
+.messageImage {
+  display: block;
+  max-width: 240px;
+  max-height: 200px;
+  border-radius: 14px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.messageImage:hover {
+  opacity: 0.92;
+}
