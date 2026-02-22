@@ -227,6 +227,36 @@ const spots: Spot[] = [
     ],
   },
   {
+    id: 'marinchuru',
+    name: 'まりんちゅーる',
+    nameEn: 'Marinchuru',
+    category: 'ガールズバー',
+    description:
+      '大阪にあるガールズバー「まりんちゅーる」。タイではないが、旅の前後に立ち寄りたい一軒。明るくアットホームな雰囲気で、スタッフとの会話が楽しい。海をテーマにした内装が特徴的。',
+    photos: [
+      {
+        url: 'https://picsum.photos/seed/marinchuru-bar-1/900/560',
+        caption: 'まりんちゅーる 店内',
+      },
+      {
+        url: 'https://picsum.photos/seed/marinchuru-osaka-2/900/560',
+        caption: '大阪の夜',
+      },
+    ],
+    mapUrl: 'https://maps.google.com/?q=まりんちゅーる+大阪',
+    address: '大阪府大阪市',
+    tags: ['ガールズバー', '大阪', 'バー', 'アットホーム'],
+    openHours: '要確認',
+    area: '大阪（番外編）',
+    reviews: [
+      {
+        source: '口コミ',
+        rating: 5,
+        comment: 'スタッフが明るくてフレンドリー。海をテーマにした内装がかわいい。タイ旅行の前後に寄りたいお気に入りの一軒。',
+      },
+    ],
+  },
+  {
     id: 'thermae-cafe',
     name: 'テーメーカフェ',
     nameEn: 'Thermae Cafe',
@@ -403,7 +433,7 @@ export default function App() {
         <div className="header-inner">
           <div className="header-flag">🇹🇭</div>
           <div>
-            <h1 className="header-title">TISタイ支部</h1>
+            <h1 className="header-title">タイ旅行</h1>
             <p className="header-subtitle">Bangkok Travel Itinerary</p>
           </div>
         </div>
@@ -418,7 +448,7 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        <p>TISタイ支部 🇹🇭 バンコク旅行しおり</p>
+        <p>タイ旅行 🇹🇭 バンコク旅行しおり</p>
       </footer>
     </div>
   )
