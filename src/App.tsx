@@ -127,6 +127,151 @@ const spots: Spot[] = [
       },
     ],
   },
+  {
+    id: 'bradbury',
+    name: 'BRADBURY（うるさいマッサージ）',
+    nameEn: 'BRADBURY - Immersive Entertainment Massage',
+    category: 'エンタメマッサージ',
+    description:
+      '「世界一うるさいマッサージ店！」がキャッチフレーズ。映像・ショー・音楽を組み合わせた没入型エンターテイメントマッサージ。マッサージを受けながら別世界を体験できる唯一無二のスポット。来店プレゼント（オリジナルフォト・ソフトクリーム・サンダル）も嬉しい。',
+    photos: [
+      {
+        url: 'https://picsum.photos/seed/bradbury-massage-1/900/560',
+        caption: 'BRADBURY 店内の雰囲気',
+      },
+      {
+        url: 'https://picsum.photos/seed/bradbury-show-2/900/560',
+        caption: 'エンターテイメントショー',
+      },
+      {
+        url: 'https://picsum.photos/seed/bradbury-ekkamai-3/900/560',
+        caption: 'エカマイ店舗外観',
+      },
+    ],
+    mapUrl: 'https://maps.google.com/?q=BRADBURY+Sukhumvit+61+Bangkok',
+    websiteUrl: 'https://brad-bury.com/',
+    address: '6 Sukhumvit 61, Khlong Tan Nuea, Watthana, Bangkok 10110',
+    tags: ['マッサージ', 'エンタメ', 'エカマイ', '没入体験', 'フォトスポット'],
+    openHours: '12:00 〜 24:00（23:00 ラストコール）',
+    area: 'エカマイ / スクンビット',
+    reviews: [
+      {
+        source: '公式サイト',
+        rating: 5,
+        comment:
+          '世界一うるさいマッサージ店！映像と音楽の中でマッサージを受ける新感覚体験。フット＆ショルダー60分 1,500バーツ、4ハンドマッサージ 1,800バーツ。',
+      },
+      {
+        source: '口コミ',
+        rating: 5,
+        comment:
+          '来店プレゼントが豪華（オリジナルフォト、ソフトクリームまたはアイシー、サンダルのお土産付き）。40席あり、予約はLINE・Instagram・公式サイトから可能。',
+      },
+      {
+        source: 'SNS',
+        rating: 4,
+        comment:
+          'BTS エカマイ駅からアクセス可能。カード（VISA/Master）、QR決済、現金OK。駐車場はメジャーエカマイを利用。',
+      },
+    ],
+  },
+  {
+    id: 'ayutthaya',
+    name: 'アユタヤ遺跡',
+    nameEn: 'Ayutthaya Historical Park',
+    category: '世界遺産',
+    description:
+      '1991年にユネスコ世界遺産に登録されたタイの古都アユタヤの遺跡群。1351年から1767年まで約400年間アユタヤ王朝の首都として栄えた歴史ある街。巨大な仏塔や寺院遺跡が点在し、木の根に取り込まれた仏頭で有名なワット・マハタートなど見どころ満載。バンコクから北へ約80km、日帰りツアーが定番。',
+    photos: [
+      {
+        url: 'https://picsum.photos/seed/ayutthaya-temple-1/900/560',
+        caption: 'ワット・マハタート（木の根の仏頭）',
+      },
+      {
+        url: 'https://picsum.photos/seed/ayutthaya-ruins-2/900/560',
+        caption: 'ワット・プラシーサンペット',
+      },
+      {
+        url: 'https://picsum.photos/seed/ayutthaya-pagoda-3/900/560',
+        caption: '巨大仏塔群',
+      },
+      {
+        url: 'https://picsum.photos/seed/ayutthaya-sunset-4/900/560',
+        caption: '夕暮れの遺跡',
+      },
+    ],
+    mapUrl: 'https://maps.google.com/?q=Ayutthaya+Historical+Park+Thailand',
+    address: 'Phra Nakhon Si Ayutthaya, Thailand 13000',
+    tags: ['世界遺産', 'UNESCO', '遺跡', '寺院', '日帰り旅行'],
+    openHours: '08:00 〜 18:00',
+    area: 'アユタヤ（バンコクから北80km）',
+    reviews: [
+      {
+        source: 'TripAdvisor',
+        rating: 5,
+        comment:
+          'タイ旅行で必ず訪れるべき世界遺産。バンコクから電車で約1.5時間、ツアーバスで約1時間。遺跡をレンタサイクルで回るのがおすすめ。',
+      },
+      {
+        source: 'Lonely Planet',
+        rating: 5,
+        comment:
+          '圧倒的なスケールの遺跡群。特にワット・マハタートの木の根に埋もれた仏頭は必見。入場料は各寺院50バーツ程度と手頃。',
+      },
+      {
+        source: 'Google Maps',
+        rating: 4,
+        comment:
+          '半日あれば主要な遺跡は回れる。暑いので日焼け止めと水は必須。象に乗って遺跡巡りもできる。',
+      },
+    ],
+  },
+  {
+    id: 'thermae-cafe',
+    name: 'テーメーカフェ',
+    nameEn: 'Thermae Cafe',
+    category: 'カフェ / バー',
+    description:
+      'スクンビット通りソイ13近くにある伝説的なカフェバー。1970年代から続く老舗で、バンコクのディープな夜文化を象徴するスポット。深夜まで営業しており、地元の人から旅行者まで幅広い客層が集まる。バンコクのナイトライフの歴史を語る上で欠かせない場所。',
+    photos: [
+      {
+        url: 'https://picsum.photos/seed/thermae-cafe-1/900/560',
+        caption: 'テーメーカフェ外観',
+      },
+      {
+        url: 'https://picsum.photos/seed/thermae-night-2/900/560',
+        caption: '夜の雰囲気',
+      },
+      {
+        url: 'https://picsum.photos/seed/sukhumvit-13-3/900/560',
+        caption: 'スクンビット周辺',
+      },
+    ],
+    mapUrl: 'https://maps.google.com/?q=Thermae+Cafe+Sukhumvit+Bangkok',
+    address: 'Sukhumvit Rd, Khlong Toei Nuea, Watthana, Bangkok 10110',
+    tags: ['カフェ', 'バー', 'スクンビット', 'ナイトライフ', '老舗'],
+    openHours: '18:00 〜 深夜',
+    area: 'スクンビット / ナナ',
+    reviews: [
+      {
+        source: 'TripAdvisor',
+        rating: 4,
+        comment:
+          'バンコクで最も歴史のあるナイトスポットの一つ。1970年代から変わらない独特の雰囲気。ドリンクは手頃な価格。',
+      },
+      {
+        source: '旅行ブログ',
+        rating: 3,
+        comment:
+          'ディープなバンコクを体験したい人向け。ナナ駅（BTS）から徒歩圏内でアクセス良好。好みは分かれるが、一度は訪れる価値あり。',
+      },
+      {
+        source: '口コミ',
+        comment:
+          '他では味わえないローカルな雰囲気。ビールは100バーツ前後でリーズナブル。深夜以降が本番。',
+      },
+    ],
+  },
 ]
 
 function StarRating({ rating, max = 5 }: { rating: number; max?: number }) {
@@ -258,8 +403,8 @@ export default function App() {
         <div className="header-inner">
           <div className="header-flag">🇹🇭</div>
           <div>
-            <h1 className="header-title">バンコク旅行しおり</h1>
-            <p className="header-subtitle">Bangkok Travel Itinerary 2025</p>
+            <h1 className="header-title">TISタイ支部</h1>
+            <p className="header-subtitle">Bangkok Travel Itinerary</p>
           </div>
         </div>
       </header>
@@ -273,7 +418,7 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        <p>バンコク旅行 🇹🇭 楽しい旅を！</p>
+        <p>TISタイ支部 🇹🇭 バンコク旅行しおり</p>
       </footer>
     </div>
   )

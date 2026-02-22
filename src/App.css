@@ -7,13 +7,13 @@
 
 /* ===== ヘッダー ===== */
 .app-header {
-  background: linear-gradient(135deg, #1a0533 0%, #2d1b69 50%, #1a0533 100%);
-  border-bottom: 2px solid #7c3aed;
+  background: linear-gradient(135deg, #ff9a56 0%, #f7c948 50%, #ff9a56 100%);
+  border-bottom: 3px solid #e8850c;
   padding: 2rem 1.5rem;
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 4px 24px rgba(124, 58, 237, 0.3);
+  box-shadow: 0 4px 16px rgba(232, 133, 12, 0.25);
 }
 
 .header-inner {
@@ -32,13 +32,14 @@
 .header-title {
   font-size: 1.9rem;
   font-weight: 800;
-  color: #f5d0fe;
+  color: #fff;
   letter-spacing: 0.04em;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .header-subtitle {
   font-size: 0.85rem;
-  color: #a78bfa;
+  color: #fff9e6;
   margin-top: 0.15rem;
   letter-spacing: 0.1em;
 }
@@ -54,22 +55,22 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
 /* ===== スポットカード ===== */
 .spot-card {
-  background: #16162a;
-  border: 1px solid #2d2d50;
+  background: #fff;
+  border: 1px solid #e5e7eb;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .spot-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
 }
 
 /* ===== カルーセル ===== */
@@ -81,7 +82,7 @@
   position: relative;
   overflow: hidden;
   aspect-ratio: 16 / 9;
-  background: #1a1a2e;
+  background: #f3f4f6;
 }
 
 .carousel-image {
@@ -97,8 +98,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
-  color: #e0e0e0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+  color: #fff;
   font-size: 0.8rem;
   padding: 1.5rem 1rem 0.6rem;
 }
@@ -107,9 +108,9 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(255, 255, 255, 0.85);
   border: none;
-  color: #fff;
+  color: #333;
   font-size: 2rem;
   line-height: 1;
   padding: 0.3rem 0.8rem;
@@ -120,7 +121,8 @@
 }
 
 .carousel-btn:hover {
-  background: rgba(124, 58, 237, 0.7);
+  background: #f7c948;
+  color: #fff;
 }
 
 .carousel-btn.prev {
@@ -136,7 +138,7 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 0.6rem 0;
-  background: #13132a;
+  background: #fafafa;
 }
 
 .dot {
@@ -144,14 +146,14 @@
   height: 8px;
   border-radius: 50%;
   border: none;
-  background: #4a4a6a;
+  background: #d1d5db;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease;
   padding: 0;
 }
 
 .dot.active {
-  background: #7c3aed;
+  background: #f59e0b;
   transform: scale(1.3);
 }
 
@@ -173,7 +175,7 @@
 .spot-category {
   font-size: 0.72rem;
   font-weight: 700;
-  color: #a78bfa;
+  color: #e8850c;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   display: block;
@@ -183,18 +185,18 @@
 .spot-name {
   font-size: 1.7rem;
   font-weight: 800;
-  color: #f5d0fe;
+  color: #1f2937;
   line-height: 1.2;
 }
 
 .spot-name-en {
   font-size: 0.88rem;
-  color: #8b8baa;
+  color: #6b7280;
   margin-top: 0.2rem;
 }
 
 .spot-area-badge {
-  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+  background: linear-gradient(135deg, #f59e0b, #e8850c);
   color: #fff;
   font-size: 0.72rem;
   font-weight: 700;
@@ -212,9 +214,9 @@
 }
 
 .tag {
-  background: #1e1e3a;
-  border: 1px solid #3d3d6b;
-  color: #c4b5fd;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  color: #c2410c;
   font-size: 0.75rem;
   padding: 0.2rem 0.6rem;
   border-radius: 999px;
@@ -222,7 +224,7 @@
 
 /* ===== 説明文 ===== */
 .spot-description {
-  color: #c0c0d8;
+  color: #4b5563;
   font-size: 0.92rem;
   line-height: 1.8;
 }
@@ -232,7 +234,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  background: #1a1a30;
+  background: #fffbeb;
   border-radius: 10px;
   padding: 1rem 1.2rem;
 }
@@ -242,7 +244,7 @@
   align-items: flex-start;
   gap: 0.6rem;
   font-size: 0.85rem;
-  color: #a0a0c0;
+  color: #6b7280;
 }
 
 .meta-icon {
@@ -275,26 +277,26 @@
 }
 
 .map-btn {
-  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+  background: linear-gradient(135deg, #f59e0b, #e8850c);
   color: #fff;
 }
 
 .web-btn {
-  background: #1e1e3a;
-  border: 1px solid #4a4a7a;
-  color: #c4b5fd;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  color: #c2410c;
 }
 
 /* ===== レビュー ===== */
 .reviews-section {
-  border-top: 1px solid #2a2a45;
+  border-top: 1px solid #e5e7eb;
   padding-top: 1.2rem;
 }
 
 .reviews-title {
   font-size: 1rem;
   font-weight: 700;
-  color: #d8b4fe;
+  color: #b45309;
   margin-bottom: 0.9rem;
 }
 
@@ -305,9 +307,9 @@
 }
 
 .review-card {
-  background: #1a1a30;
-  border: 1px solid #2a2a45;
-  border-left: 3px solid #7c3aed;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-left: 3px solid #f59e0b;
   border-radius: 8px;
   padding: 0.9rem 1rem;
 }
@@ -323,7 +325,7 @@
 .review-source {
   font-size: 0.78rem;
   font-weight: 700;
-  color: #a78bfa;
+  color: #b45309;
 }
 
 /* ===== 星評価 ===== */
@@ -334,17 +336,17 @@
 
 .star {
   font-size: 0.85rem;
-  color: #3d3d5a;
+  color: #d1d5db;
 }
 
 .star.filled {
-  color: #fbbf24;
+  color: #f59e0b;
 }
 
 /* ===== レビューコメント ===== */
 .review-comment {
   font-size: 0.83rem;
-  color: #b0b0cc;
+  color: #6b7280;
   line-height: 1.7;
   font-style: italic;
 }
@@ -353,9 +355,10 @@
 .app-footer {
   text-align: center;
   padding: 1.5rem;
-  color: #5a5a7a;
+  color: #9ca3af;
   font-size: 0.82rem;
-  border-top: 1px solid #1e1e35;
+  border-top: 1px solid #e5e7eb;
+  background: #fff;
 }
 
 /* ===== レスポンシブ ===== */
